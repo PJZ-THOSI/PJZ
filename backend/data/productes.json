@@ -1,32 +1,248 @@
 [
-    {"id": 1, "nom": "Pa de pagès", "categoria": "Fleca", "preu": 2.40, "unitat": "unitat"},
-    {"id": 2, "nom": "Barra de quart", "categoria": "Fleca", "preu": 0.95, "unitat": "unitat"},
-    {"id": 3, "nom": "Croissant de mantega", "categoria": "Fleca", "preu": 1.30, "unitat": "unitat"},
-    {"id": 4, "nom": "Ensaïmada", "categoria": "Fleca", "preu": 1.80, "unitat": "unitat"},
-    {"id": 5, "nom": "Coca de llardons", "categoria": "Fleca", "preu": 6.50, "unitat": "unitat"},
-    {"id": 6, "nom": "Llet sencera", "categoria": "Làctics", "preu": 1.15, "unitat": "litre"},
-    {"id": 7, "nom": "Iogurt natural (pack 4)", "categoria": "Làctics", "preu": 1.90, "unitat": "pack"},
-    {"id": 8, "nom": "Formatge tendre", "categoria": "Làctics", "preu": 4.75, "unitat": "250 g"},
-    {"id": 9, "nom": "Mantega", "categoria": "Làctics", "preu": 2.60, "unitat": "250 g"},
-    {"id": 10, "nom": "Mató", "categoria": "Làctics", "preu": 3.20, "unitat": "250 g"},
-    {"id": 11, "nom": "Pomes Golden", "categoria": "Fruita", "preu": 2.10, "unitat": "kg"},
-    {"id": 12, "nom": "Plàtans de Canàries", "categoria": "Fruita", "preu": 2.35, "unitat": "kg"},
-    {"id": 13, "nom": "Taronges", "categoria": "Fruita", "preu": 1.70, "unitat": "kg"},
-    {"id": 14, "nom": "Maduixes", "categoria": "Fruita", "preu": 3.50, "unitat": "500 g"},
-    {"id": 15, "nom": "Peres conference", "categoria": "Fruita", "preu": 2.25, "unitat": "kg"},
-    {"id": 16, "nom": "Tomàquets de penjar", "categoria": "Verdura", "preu": 3.10, "unitat": "kg"},
-    {"id": 17, "nom": "Enciam", "categoria": "Verdura", "preu": 1.00, "unitat": "unitat"},
-    {"id": 18, "nom": "Patates", "categoria": "Verdura", "preu": 1.40, "unitat": "kg"},
-    {"id": 19, "nom": "Cebes", "categoria": "Verdura", "preu": 1.25, "unitat": "kg"},
-    {"id": 20, "nom": "Pastanagues", "categoria": "Verdura", "preu": 1.10, "unitat": "kg"},
-    {"id": 21, "nom": "Ous de pagès (dotzena)", "categoria": "Rebost", "preu": 3.60, "unitat": "dotzena"},
-    {"id": 22, "nom": "Oli d'oliva verge extra", "categoria": "Rebost", "preu": 9.80, "unitat": "litre"},
-    {"id": 23, "nom": "Arròs bomba", "categoria": "Rebost", "preu": 3.90, "unitat": "kg"},
-    {"id": 24, "nom": "Macarrons", "categoria": "Rebost", "preu": 1.35, "unitat": "500 g"},
-    {"id": 25, "nom": "Cigrons cuits", "categoria": "Rebost", "preu": 1.60, "unitat": "pot"},
-    {"id": 26, "nom": "Fuet", "categoria": "Xarcuteria", "preu": 3.95, "unitat": "unitat"},
-    {"id": 27, "nom": "Pernil serrà", "categoria": "Xarcuteria", "preu": 4.50, "unitat": "100 g"},
-    {"id": 28, "nom": "Botifarra", "categoria": "Xarcuteria", "preu": 5.20, "unitat": "kg"},
-    {"id": 29, "nom": "Aigua mineral", "categoria": "Begudes", "preu": 0.60, "unitat": "1,5 litres"},
-    {"id": 30, "nom": "Suc de taronja natural", "categoria": "Begudes", "preu": 2.95, "unitat": "litre"}
+    {
+        "id": "p01",
+        "nombre": "Bocadillo de jamón",
+        "descripcion": "Pan de barra crujiente con jamón ibérico y aceite de oliva.",
+        "precio": 3.5,
+        "categoria": "bocadillos",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1528735602780-2552fd46c7af?w=600",
+        "franjas": [
+            "desayuno",
+            "comida"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "p02",
+        "nombre": "Bocadillo de queso",
+        "descripcion": "Queso curado, tomate natural y un toque de orégano.",
+        "precio": 3.2,
+        "categoria": "bocadillos",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1619096252214-ef06c45683e3?w=600",
+        "franjas": [
+            "desayuno",
+            "comida"
+        ],
+        "oferta": true,
+        "disponible": true
+    },
+    {
+        "id": "p03",
+        "nombre": "Bikini",
+        "descripcion": "Sándwich mixto de jamón york y queso fundido.",
+        "precio": 2.8,
+        "categoria": "bocadillos",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1528736235302-52922df5c122?w=600",
+        "franjas": [
+            "desayuno",
+            "merienda"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "p04",
+        "nombre": "Bocadillo vegetal",
+        "descripcion": "Lechuga, tomate, zanahoria, huevo y atún.",
+        "precio": 3.9,
+        "categoria": "bocadillos",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1509722747041-616f39b57569?w=600",
+        "franjas": [
+            "comida"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "p05",
+        "nombre": "Croissant",
+        "descripcion": "Croissant de mantequilla recién horneado.",
+        "precio": 1.5,
+        "categoria": "bolleria",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1555507036-ab1f4038808a?w=600",
+        "franjas": [
+            "desayuno",
+            "merienda"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "p06",
+        "nombre": "Donut glaseado",
+        "descripcion": "Donut suave con glaseado dulce clásico.",
+        "precio": 1.2,
+        "categoria": "bolleria",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1551024601-bec78aea704b?w=600",
+        "franjas": [
+            "desayuno",
+            "merienda"
+        ],
+        "oferta": true,
+        "disponible": true
+    },
+    {
+        "id": "p07",
+        "nombre": "Napolitana de chocolate",
+        "descripcion": "Hojaldre relleno de chocolate fundente.",
+        "precio": 1.6,
+        "categoria": "bolleria",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1509365465985-25d11c17e812?w=600",
+        "franjas": [
+            "desayuno",
+            "merienda"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "p08",
+        "nombre": "Muffin de arándanos",
+        "descripcion": "Esponjoso bizcocho con arándanos frescos.",
+        "precio": 1.8,
+        "categoria": "bolleria",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1607958996333-41aef7caefaa?w=600",
+        "franjas": [
+            "desayuno",
+            "merienda"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "p09",
+        "nombre": "Agua mineral 500ml",
+        "descripcion": "Agua mineral natural, botella 500ml.",
+        "precio": 0.8,
+        "categoria": "bebidas",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1548839140-29a749e1cf4d?w=600",
+        "franjas": [],
+        "disponible": true
+    },
+    {
+        "id": "p10",
+        "nombre": "Refresco de cola",
+        "descripcion": "Refresco carbonatado 330ml bien frío.",
+        "precio": 1.5,
+        "categoria": "bebidas",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1622483767028-3f66f32aef97?w=600",
+        "franjas": [
+            "comida",
+            "merienda"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "p11",
+        "nombre": "Zumo de naranja natural",
+        "descripcion": "Zumo exprimido en el momento.",
+        "precio": 2.2,
+        "categoria": "bebidas",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1613478223719-2ab802602423?w=600",
+        "franjas": [
+            "desayuno",
+            "merienda"
+        ],
+        "oferta": true,
+        "disponible": true
+    },
+    {
+        "id": "p12",
+        "nombre": "Café con leche",
+        "descripcion": "Café espresso con leche vaporizada.",
+        "precio": 1.4,
+        "categoria": "bebidas",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1509042239860-f550ce710b93?w=600",
+        "franjas": [
+            "desayuno",
+            "merienda"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "p13",
+        "nombre": "Patatas chips",
+        "descripcion": "Bolsa individual de patatas fritas crujientes.",
+        "precio": 1,
+        "categoria": "snacks",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1566478989037-eec170784d0b?w=600",
+        "franjas": [],
+        "disponible": true
+    },
+    {
+        "id": "p14",
+        "nombre": "Frutos secos",
+        "descripcion": "Mezcla energética de almendras y nueces.",
+        "precio": 1.8,
+        "categoria": "snacks",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1599599810769-bcde5a160d32?w=600",
+        "franjas": [],
+        "disponible": true
+    },
+    {
+        "id": "p15",
+        "nombre": "Barrita de cereales",
+        "descripcion": "Barrita integral con frutos secos y miel.",
+        "precio": 1.1,
+        "categoria": "snacks",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1571748982800-fa51082c2224?w=600",
+        "franjas": [
+            "desayuno",
+            "merienda"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "p16",
+        "nombre": "Manzana",
+        "descripcion": "Pieza de fruta fresca de temporada.",
+        "precio": 0.9,
+        "categoria": "otros",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1570913149827-d2ac84ab3f9a?w=600",
+        "franjas": [],
+        "disponible": true
+    },
+    {
+        "id": "p17",
+        "nombre": "Plátano",
+        "descripcion": "Energía rápida y natural.",
+        "precio": 0.7,
+        "categoria": "otros",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1571771894821-ce9b6c11b08e?w=600",
+        "franjas": [],
+        "oferta": true,
+        "disponible": true
+    },
+    {
+        "id": "p18",
+        "nombre": "Pizza porción",
+        "descripcion": "Porción de pizza margarita recién hecha.",
+        "precio": 2.5,
+        "categoria": "comida_caliente",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1565299624946-b28f40a0ae38?w=600",
+        "franjas": [
+            "comida"
+        ],
+        "oferta": true,
+        "disponible": true
+    },
+    {
+        "id": "p19",
+        "nombre": "Empanadilla de atún",
+        "descripcion": "Masa horneada rellena de atún y tomate.",
+        "precio": 1.7,
+        "categoria": "comida_caliente",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1601050690597-df0568f70950?w=600",
+        "franjas": [
+            "comida"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "p20",
+        "nombre": "Ensalada mixta",
+        "descripcion": "Ensalada fresca con pollo, maíz y vinagreta.",
+        "precio": 3.9,
+        "categoria": "comida_caliente",
+        "imagen": "https:\/\/images.unsplash.com\/photo-1540420773420-3366772f4999?w=600",
+        "franjas": [
+            "comida"
+        ],
+        "disponible": true
+    }
 ]
