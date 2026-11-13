@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite & php -S localhost:8081 -t backend/public",
     "build": "vite build",
     "preview": "vite preview"
   },
