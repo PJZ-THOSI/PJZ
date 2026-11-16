@@ -4,13 +4,15 @@
         "nombre": "Entrepà Vegetal",
         "descripcion": "Entrepà vegetal amb envotits variats.",
         "precio": 3.5,
-        "imagen": "../src/assets/fotosProductes/bocata.png"     
+        "franja-horaria": "esmorzar",
+        "imagen": "../src/assets/fotosProductes/bocata.png"
     },
     {
         "id": "p02",
         "nombre": "Galetes Oreo",
         "descripcion": "Galetes de cacao i nata.",
         "precio": 2.1,
+        "franja-horaria": "dinar",
         "imagen": "../src/assets/fotosProductes/galetes.png"
     },
     {
@@ -18,6 +20,7 @@
         "nombre": "Patates Fregides",
         "descripcion": "Patates Fregides fetes amb oli d'oliva.",
         "precio": 1.2,
-        "imagen": "../src/assets/fotosProductes/bocata.png"   
+        "franja-horaria": "berenar",
+        "imagen": "../src/assets/fotosProductes/bocata.png"
     }
 ]
