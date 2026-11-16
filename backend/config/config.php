@@ -16,8 +16,13 @@
     define("USUARI", "admin");
     define("CONTRASENYA", "admin123");
 
-// Rutes
-    define("PAGINA_INCI", "../../public/index.php");
-    define("PAGINA_ADMIN", "../../public/admin.php");
+// Navegacio Links
+    define("PAGINA_INICI", "/index.php");
+    define("PAGINA_COMPRA", "/compra.php");
+    define("PAGINA_FINAL", "/finalitzacio.php");
+    define("PAGINA_ADMIN", "/admin.php");
+    define("PAGINA_CONDICIONS", "/condicions.php");
+
+
 
 ?>
