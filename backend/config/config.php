@@ -22,7 +22,4 @@
     define("PAGINA_FINAL", "/finalitzacio.php");
     define("PAGINA_ADMIN", "/admin.php");
     define("PAGINA_CONDICIONS", "/condicions.php");
-
-
-
 ?>
