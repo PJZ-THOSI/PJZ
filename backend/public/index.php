@@ -1,36 +1,17 @@
+<?php
+require_once __DIR__ . '/../config/config.php';
+?>
 <!DOCTYPE html>
-<html lang="ca">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-
-scale=1">
-    <title>Projecte PHP</title>
-    <!-- Vite en desenvolupament -->
-    <!--
-Connexió amb el client de Vite.
-Permet activar HMR (Hot Module Replacement), que detecta
-els canvis en els fitxers JavaScript i Sass i actualitza
-automàticament els recursos al navegador durant el
-desenvolupament.
--->
-    <script type="module" src="http://localhost:5173/@vite/client">
-    </script>
-    <!--
-Carrega el fitxer JavaScript principal del projecte.
-Vite processa aquest fitxer i també els mòduls que importa.
-Si main.js importa un fitxer Sass, Vite també el compila
-i injecta els estils a la pàgina.
--->
-    <script type="module" src="http://localhost:5173/src/js/main.js">
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
-<body>
-    <h1>Projecte PHP + Vite</h1>
+<body>    
     <?php
-    echo "<p>Contingut generat amb PHP</p>";
+    echo '<a href="' . PAGINA_ADMIN . '">gfhjugfhugef</a>';
     ?>
-</body>
 
+</body>
 </html>
