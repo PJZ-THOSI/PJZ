@@ -44,15 +44,15 @@
             <i class="icona icona-tiquet"></i>
             <h2>El teu tiquet</h2>
             <span class="tiquet-quantitat">0 productes</span>
-            <button>Buidar ticket</button>
+            <button>Buidar tiquet</button>
         </div>
 
         <ul class="tiquet-llista">
             <li>
                 <i class="icona icona-item"></i>
-                <span>Platano</span>
-                <span>Precio€</span>
-                <span>Total€</span>
+                <span>Plàtan</span>
+                <span>Preu €</span>
+                <span>Total €</span>
                 <button>Eliminar</button> <!--Temporal-->
             </li>
         </ul>

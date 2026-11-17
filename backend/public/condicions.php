@@ -58,7 +58,7 @@
         <h2>2. Política de privacitat</h2>
 
         <h3>Responsable del tractament</h3>
-        <p>Serveis de Restauració Exemple, S.L., amb les dades de contacte indicades a l'<a href="#avis-legal">avís
+        <p>PJZ, S.L., amb les dades de contacte indicades a l'<a href="#avis-legal">avís
                 legal</a>.</p>
 
         <h3>Quines dades recollim</h3>

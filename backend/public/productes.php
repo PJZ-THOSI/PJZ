@@ -26,7 +26,7 @@ $productes = carregarProductes();
     </nav>
 
     <section class="productes-capcalera">
-        <h1>Gestio de productes</h1>
+        <h1>Gestió de productes</h1>
         <p>Afegeix, elimina i edita productes</p>
     </section>
 
@@ -34,20 +34,20 @@ $productes = carregarProductes();
         <h2>Nou producte</h2>
         <form action="productes.php" method="post">
             <label for="nom">Nom</label>
-            <input type="text" name="nom">
-            <label for="descripcio">Descripcio</label>
-            <input type="text" name="descripcio">
+            <input type="text" id="nom" name="nom">
+            <label for="descripcio">Descripció</label>
+            <input type="text" id="descripcio" name="descripcio">
             <label for="preu">Preu</label>
-            <input type="number" min="0" step="1.0" name="preu">
-            <label for="url">URL imagen</label>
-            <input type="text" name="url">
+            <input type="number" id="preu" name="preu" min="0" step="0.01">
+            <label for="url">URL de la imatge</label>
+            <input type="text" id="url" name="url">
 
             <label for="esmorzar">Esmorzar</label>
-            <input type="checkbox" name="esmorzar">
+            <input type="checkbox" id="esmorzar" name="esmorzar">
             <label for="berenar">Berenar</label>
-            <input type="checkbox" name="berenar">
+            <input type="checkbox" id="berenar" name="berenar">
             <label for="dinar">Dinar</label>
-            <input type="checkbox" name="dinar">
+            <input type="checkbox" id="dinar" name="dinar">
 
             <button type="submit">Afegir producte</button>
         </form>
@@ -74,13 +74,13 @@ $productes = carregarProductes();
 
                     <td>
                         <form action="productes.php" method="post">
-                            <button type="submit" class="boto-suprimir"></button>
+                            <button type="submit" class="boto-suprimir"><span class="text-amagat">Eliminar</span></button>
                         </form>
                     </td>
 
                     <td>
                         <form action="productes.php" method="get">
-                            <button type="submit" class="boto-editar"></button>
+                            <button type="submit" class="boto-editar"><span class="text-amagat">Editar</span></button>
                             <input type="hidden" name="id" value="1">
                         </form>
                     </td>

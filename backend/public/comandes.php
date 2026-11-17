@@ -8,7 +8,7 @@
         </div>
         <form action="logout.php" method="post">
             <button type="submit" class="boto tancar-sessio">
-                <i class="icona icona-sortir"></i>
+                <i class="icona icona-sortir" aria-hidden="true"></i>
                 Tancar sessió
             </button>
         </form>
@@ -17,15 +17,15 @@
     <nav class="admin-pestanyes">
         <ul>
             <li>
-                <a href="admin-comandes.php" class="pestanya activa">
-                    <i class="icona icona-tiquet"></i>
+                <a href="comandes.php" class="pestanya activa">
+                    <i class="icona icona-tiquet" aria-hidden="true"></i>
                     Comandes
                     <span class="comptador">2</span>
                 </a>
             </li>
             <li>
-                <a href="admin-productes.php" class="pestanya">
-                    <i class="icona icona-caixa"></i>
+                <a href="productes.php" class="pestanya">
+                    <i class="icona icona-caixa" aria-hidden="true"></i>
                     Productes
                     <span class="comptador">7</span>
                 </a>
@@ -50,8 +50,8 @@
                 <tr>
                     <td><code class="codi-comanda">C-20261112-170611-3B13</code></td>
                     <td>
-                        <span class="client-nom">prueba2</span>
-                        <span class="client-correu">uighuisgf@ejemplo.com</span>
+                        <span class="client-nom">prova2</span>
+                        <span class="client-correu">prova2@exemple.cat</span>
                     </td>
                     <td>
                         <time datetime="2026-11-12T17:06:11">
@@ -62,13 +62,13 @@
                     <td>3</td>
                     <td class="total">3,50 €</td>
                     <td><span class="estat estat-pendent">Pendent</span></td>
-                    <td><a class="boto">Veure tiquet</a></td>
+                    <td><a href="tiquet.php?id=C-20261112-170611-3B13" class="boto">Veure tiquet</a></td>
                 </tr>
                 <tr>
                     <td><code class="codi-comanda">C-20261109-190038-FBF4</code></td>
                     <td>
                         <span class="client-nom">Pol Cervera</span>
-                        <span class="client-correu">hola@ejemplo.com</span>
+                        <span class="client-correu">hola@exemple.cat</span>
                     </td>
                     <td>
                         <time datetime="2026-11-09T19:00:38">
@@ -79,7 +79,7 @@
                     <td>1</td>
                     <td class="total">7,20 €</td>
                     <td><span class="estat estat-llest">Llest</span></td>
-                    <td><a class="boto">Veure tiquet</a></td>
+                    <td><a href="tiquet.php?id=C-20261109-190038-FBF4" class="boto">Veure tiquet</a></td>
                 </tr>
             </tbody>
         </table>
